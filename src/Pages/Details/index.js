@@ -19,7 +19,7 @@ const getDetails = gql`
 
 function Details({ match }) {
 
-    const id = match.params.name;
+    const id = match.params.id;
     const { loading, error, data } = useQuery(getDetails, {
         variables: { id },
     });

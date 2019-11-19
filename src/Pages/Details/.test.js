@@ -25,7 +25,7 @@ const mocks = [
         request: {
             query: getDetails,
             variables: {
-                name: "Rick Sanchez",
+                id: "1",
             },
         },
         result: {
